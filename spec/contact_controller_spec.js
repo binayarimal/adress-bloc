@@ -1,10 +1,10 @@
-const ContactController = require("../controller/ContactController");
+const ContactController = require("../controllers/ContactController");
 const sequelize = require("../db/models/index").sequelize;
 describe("ContactController", () => {
   beforeEach((done) => {
        this.book = new ContactController();
 
-// #1
+
        sequelize.sync({force: true}).then((res) => {
          done();
        })

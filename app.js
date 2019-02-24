@@ -1,5 +1,5 @@
 const inquirer = require('inquirer')
-const MenuController = require('./controller/MenuController');
+const MenuController = require('./controllers/MenuController');
 const menu = new MenuController();
 
 menu.clear();

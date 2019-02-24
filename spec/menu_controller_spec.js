@@ -1,5 +1,5 @@
 // #1
-const MenuController = require("../controller/MenuController");
+const MenuController = require("../controllers/MenuController");
  describe("MenuController", () => {
    beforeEach(() => {
    this.menu = new MenuController();
