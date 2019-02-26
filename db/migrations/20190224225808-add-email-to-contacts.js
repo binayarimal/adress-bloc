@@ -6,7 +6,7 @@ module.exports = {
       return queryInterface.addColumn('Contacts','Email',{
 
           type: Sequelize.STRING,
-        
+          
 
 
        });
